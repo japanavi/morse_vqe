@@ -1,7 +1,3 @@
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
 # Morse Potential on a Quantum Computer
 This code is designed to run the Variational Quantum Eigensolver (VQE) algorithm from IBM's Quantum Information Software Kit [(QISKit)](https://qiskit.org/documentation/index.html) on Hamiltonians represented as text files. This code was written while participating the in the spring 2020 Science Undergraduate Laboratory Internships [(SULI)](https://science.osti.gov/wdts/suli) program at Brookhaven National Laboratory.
 
@@ -26,14 +22,14 @@ Currently the code gets the state and basis from the file name of the text file 
 
 * Potential: Name of potential the VQE is being ran on (e.g. Morse or AnharmonicOscillator)
 * Basis: How the Hamiltonian is constructed
-	* Position $\rightarrow$ `pos`
-	* Oscillator $\rightarrow$ `osc`
-	* Finite Difference $\rightarrow$ `finite`
-* The energy state is representented as $E_{i}$, for the $i$th energy state
-	*  e.g. Ground state $\rightarrow$ `E0`
-	*  First excited state $\rightarrow$ `E1`
+	* Position <img src="https://render.githubusercontent.com/render/math?math=\rightarrow"> `pos`
+	* Oscillator <img src="https://render.githubusercontent.com/render/math?math=\rightarrow"> `osc`
+	* Finite Difference <img src="https://render.githubusercontent.com/render/math?math=\rightarrow"> `finite`
+* The energy state is representented as <img src="https://render.githubusercontent.com/render/math?math=E_{i}">, for the *i*th energy state
+	*  e.g. Ground state <img src="https://render.githubusercontent.com/render/math?math=\rightarrow"> `E0`
+	*  First excited state <img src="https://render.githubusercontent.com/render/math?math=\rightarrow"> `E1`
 * Size: Size of the Hamiltonian matrix (determined by the number of qubits used)
-	*   $N$ qubits $\rightarrow 2^{N}\times 2^{N}$ matrix
+	*  N qubits <img src="https://render.githubusercontent.com/render/math?math=\rightarrow 2^{N}\times 2^{N}"> matrix
 
 For example, if you were running the Morse potential in the position basis,  calculating the ground state, and used $4$ qubits, the file name would be `Morse_pos_E0_16x16.txt`
 
@@ -98,3 +94,4 @@ v_q_e.plt_state_vector()
 * The United States Department of Energy, for funding the SULI program
 * Brookhaven National Laboratory, for hosting my stay and allowing me to participate in this project
 
+> Written with [StackEdit](https://stackedit.io/).
