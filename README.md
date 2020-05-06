@@ -25,7 +25,7 @@ Currently the code gets the state and basis from the file name of the text file 
 	* Position <img src="https://render.githubusercontent.com/render/math?math=\rightarrow"> `pos`
 	* Oscillator <img src="https://render.githubusercontent.com/render/math?math=\rightarrow"> `osc`
 	* Finite Difference <img src="https://render.githubusercontent.com/render/math?math=\rightarrow"> `finite`
-* The energy state is representented as <img src="https://render.githubusercontent.com/render/math?math=E_{i}">, for the *i*th energy state
+* The energy state is representented as <img src="https://render.githubusercontent.com/render/math?math=E_{i}">, for the *i* th energy state
 	*  e.g. Ground state <img src="https://render.githubusercontent.com/render/math?math=\rightarrow"> `E0`
 	*  First excited state <img src="https://render.githubusercontent.com/render/math?math=\rightarrow"> `E1`
 * Size: Size of the Hamiltonian matrix (determined by the number of qubits used)
